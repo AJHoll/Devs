@@ -1,0 +1,400 @@
+body {
+	/*background-color: beige;*/
+	
+	position  : relative;
+	background: #DDF0D9;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+	
+}
+
+
+
+.element {
+	display: inline-block;
+	margin : 0 0.5rem;
+
+	animation           : zoomIn;
+	/*animation         : rotateIn;*/
+	/* referring directly to the animation's @keyframe declaration */
+	animation-duration  : 2s;
+	/* don't forget to set a duration! */
+}
+
+.header {
+	box-sizing: border-box;
+    min-height: 100vh;    
+    position: relative;
+	text-align: center;
+	background: linear-gradient(to top, #DDF0D9, #DBF1F0 );
+	border: solid 2px #404040 ;
+}
+
+.head_life_cycle {
+	width: 100%;
+	font-family: inherit;
+	font-size: 36px;
+	font-weight: 400;
+	margin-top: 180px;
+	color: #5A615F;
+}
+
+.collection_element {
+	display: block;
+	justify-content: center;
+	margin-top: 90px;
+	position: relative;
+}
+
+.container_element {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+._element {
+	
+}
+
+.block_text_cycle {
+	width: 630px;
+	margin: auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.text_life_cycle {
+	/*position: absolute;*/
+	width: 630px;
+	top: 150px;
+	left: 33%;
+	text-align: left;
+}
+
+.drop-shadow1:hover {
+	filter: drop-shadow(0.35rem 0.1rem 0.3rem rgb(0, 0, 0, 0.8));
+}
+
+.drop-shadow2:hover {
+	filter: drop-shadow(0.35rem 0.1rem 0.3rem rgba(0, 3, 199, 0.8));
+}
+
+.drop-shadow3:hover {
+	filter: drop-shadow(0.35rem 0.1rem 0.3rem rgb(4, 126, 0, 0.8));
+}
+
+.container_life_cycle {
+	
+	/*width  : 100%;*/
+	min-height: 100vh;
+	text-align: center;
+	display: block;
+	position: relative;
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+}
+
+.element {
+	height      : 100px;
+	width       : 316px;
+	margin      : 20px;
+	position    : relative;
+	--box-shadow: 5px 5px 25px 10px #f7abab;
+}
+
+/*#region Логотип */
+
+.contain_logo {
+	position: absolute;
+	top     : 30%;
+	left    : 45%;
+}
+
+.logo {
+
+	/*transition: all 2s ease;
+	animation : move 50s linear infinite;*/
+}
+
+.text_logo {
+
+	margin-top : 40px;
+	margin-left: 30px;
+
+	font-size  : 42px;
+	line-height: 56px;
+	font-style : normal;
+
+	display       : flex;
+	align-items   : center;
+	text-align    : center;
+	letter-spacing: 0.3em;
+
+	color      : #555555;
+	font-family: inherit;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.anim_ {
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	color: inherit;
+	letter-spacing: inherit;
+	animation : show_hide 1.5s linear infinite;
+}
+
+/*#endregion */
+
+
+
+/*#region Проектирование */
+.titel1 {
+	/*position: absolute;
+	top: 12px;
+	left: 60px;*/
+	margin     : 37px 25px;
+	font-size  : 24px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.trapezium2 {
+	width            : 50px;
+	height           : 50px;
+	background       : #404040;
+	-webkit-transform: skew(30deg);
+	-moz-transform   : skew(30deg);
+	-o-transform     : skew(30deg);
+	transform        : skew(30deg);
+
+	position: absolute;
+	top     : 1px;
+	right   : -1px;
+}
+
+.trapezium3 {
+	width            : 50px;
+	height           : 50px;
+	background       : #333333;
+	-webkit-transform: skew(-30deg);
+	-moz-transform   : skew(-30deg);
+	-o-transform     : skew(-30deg);
+	transform        : skew(-30deg);
+	position         : absolute;
+	top              : 51px;
+	right            : -1px;
+}
+
+.trapezium8 {
+	width            : 299px;
+	height           : 50px;
+	--background     : #8734f7;
+	-webkit-transform: skew(30deg);
+	-moz-transform   : skew(30deg);
+	-o-transform     : skew(30deg);
+	transform        : skew(0deg);
+	border-left      : 0.1em solid #404040;
+	border-top       : 0.1em solid #404040;
+	border-right     : 0.1em solid #404040;
+	box-shadow       : rgba(0, 0, 0, 5);
+	position         : absolute;
+	top              : 1px;
+}
+
+.trapezium9 {
+	width            : 299px;
+	height           : 50px;
+	--background     : #8734f7;
+	-webkit-transform: skew(-30deg);
+	-moz-transform   : skew(-30deg);
+	-o-transform     : skew(-30deg);
+	transform        : skew(-0deg);
+	border-left      : 0.1em solid #333333;
+	border-bottom    : 0.1em solid #333333;
+	border-right     : 0.1em solid #333333;
+	--box-shadow     : -1px 0px 25px 5px rgba(0, 0, 0, 0.5);
+	position         : absolute;
+	top              : 51px;
+}
+
+/*#endregion */
+
+/*#region Разработка */
+.titel2 {
+	/*position: absolute;
+	top: 12px;
+	left: 60px;*/
+	margin     : 37px 50px;
+	font-size  : 24px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.trapezium4 {
+	width            : 50px;
+	height           : 50px;
+	background       : #3E8DD1;
+	-webkit-transform: skew(30deg);
+	-moz-transform   : skew(30deg);
+	-o-transform     : skew(30deg);
+	transform        : skew(30deg);
+
+	position: absolute;
+	top     : 1px;
+	right   : -1px;
+}
+
+.trapezium5 {
+	width            : 50px;
+	height           : 50px;
+	background       : #3C88CA;
+	-webkit-transform: skew(-30deg);
+	-moz-transform   : skew(-30deg);
+	-o-transform     : skew(-30deg);
+	transform        : skew(-30deg);
+	position         : absolute;
+	top              : 51px;
+	right            : -1px;
+}
+
+.trapezium {
+	width            : 315px;
+	height           : 50px;
+	--background     : #8734f7;
+	-webkit-transform: skew(30deg);
+	-moz-transform   : skew(30deg);
+	-o-transform     : skew(30deg);
+	transform        : skew(30deg);
+	border-left      : 0.1em solid #3E8DD1;
+	border-top       : 0.1em solid #3E8DD1;
+	border-right     : 0.1em solid #3E8DD1;
+	box-shadow       : rgba(0, 0, 0, 5);
+	position         : absolute;
+	top              : 1px;
+}
+
+.trapezium1 {
+	width            : 315px;
+	height           : 50px;
+	--background     : #8734f7;
+	-webkit-transform: skew(-30deg);
+	-moz-transform   : skew(-30deg);
+	-o-transform     : skew(-30deg);
+	transform        : skew(-30deg);
+	border-left      : 0.1em solid #3C88CA;
+	border-bottom    : 0.1em solid #3C88CA;
+	border-right     : 0.1em solid #3C88CA;
+	--box-shadow     : -1px 0px 25px 5px rgba(0, 0, 0, 0.5);
+	position         : absolute;
+	top              : 51px;
+}
+
+/*#endregion */
+
+/*#region Сопровождение */
+.titel3 {
+	/*position: absolute;
+	top: 12px;
+	left: 60px;*/
+	margin     : 37px 25px;
+	font-size  : 24px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.trapezium6 {
+	width            : 50px;
+	height           : 50px;
+	background       : #A5ED00;
+	-webkit-transform: skew(30deg);
+	-moz-transform   : skew(30deg);
+	-o-transform     : skew(30deg);
+	transform        : skew(30deg);
+
+	position: absolute;
+	top     : 1px;
+	right   : -1px;
+}
+
+.trapezium7 {
+	width            : 50px;
+	height           : 50px;
+	background       : #97D902;
+	-webkit-transform: skew(-30deg);
+	-moz-transform   : skew(-30deg);
+	-o-transform     : skew(-30deg);
+	transform        : skew(-30deg);
+	position         : absolute;
+	top              : 51px;
+	right            : -1px;
+}
+
+.trapezium10 {
+	width            : 315px;
+	height           : 50px;
+	--background     : #8734f7;
+	-webkit-transform: skew(30deg);
+	-moz-transform   : skew(30deg);
+	-o-transform     : skew(30deg);
+	transform        : skew(30deg);
+	border-left      : 0.1em solid #A5ED00;
+	border-top       : 0.1em solid #A5ED00;
+	border-right     : 0.1em solid #A5ED00;
+	box-shadow       : rgba(0, 0, 0, 5);
+	position         : absolute;
+	top              : 1px;
+}
+
+.trapezium11 {
+	width            : 315px;
+	height           : 50px;
+	--background     : #8734f7;
+	-webkit-transform: skew(-30deg);
+	-moz-transform   : skew(-30deg);
+	-o-transform     : skew(-30deg);
+	transform        : skew(-30deg);
+	border-left      : 0.1em solid #97D902;
+	border-bottom    : 0.1em solid #97D902;
+	border-right     : 0.1em solid #97D902;
+	--box-shadow     : -1px 0px 25px 5px rgba(0, 0, 0, 0.5);
+	position         : absolute;
+	top              : 51px;
+}
+
+/*#endregion */
+
+/*#region Анимации */
+@keyframes rotate {
+	from {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes move {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	50% {
+		transform: rotate(180deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes show_hide {
+	0%,25% {
+		opacity: 100%;
+	}
+
+	50%,75% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
+/*#endregion */
+

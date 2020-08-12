@@ -26,7 +26,7 @@ body {
     position: relative;
 	text-align: center;
 	background: linear-gradient(to top, #DDF0D9, #DBF1F0 );
-	border: solid 2px #404040 ;
+	/*border: solid 2px #404040 ;*/
 }
 
 .head_life_cycle {
